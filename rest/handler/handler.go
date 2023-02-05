@@ -44,6 +44,6 @@ func (h *handler) ListNews(c echo.Context) error {
 		}
 		nn = append(nn, n)
 	}
-
+	println("=> hihi")
 	return c.JSON(http.StatusOK, nn)
 }
