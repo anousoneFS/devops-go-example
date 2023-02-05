@@ -67,6 +67,7 @@ func TestITGetGreeting(t *testing.T) {
 	defer cancel()
 	err = eh.Shutdown(ctx)
 	assert.NoError(t, err)
+	println("=> this test pass")
 }
 
 func TestITListNews(t *testing.T) {
